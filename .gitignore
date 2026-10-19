@@ -1,0 +1,31 @@
+cat > .gitignore << 'EOF'
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+.vscode/
+.plastic/
+*.csproj
+*.sln
+*.slnx
+*.vsconfig
+ignore.conf
+Temp.txt
+/Assets/ImportedAssets/
+/Assets/ImportedAssets.meta
+/Assets/Synty Studios/
+/Assets/Synty Studios.meta
+/Assets/Synty Studios_dst/
+/Assets/Synty Studios_dst.meta
+/Assets/SimpleFantasy_dst/
+/Assets/SimpleFantasy_dst.meta
+/Assets/TextMesh Pro/
+/Assets/TextMesh Pro.meta
+/Assets/TextMesh Pro_dst/
+/Assets/TextMesh Pro_dst.meta
+/Assets/_Recovery/
+/Assets/_Recovery.meta
+EOF

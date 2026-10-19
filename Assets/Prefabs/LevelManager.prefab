@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8606169347691362006
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6010459276466094102}
+  - component: {fileID: 8349632535775841062}
+  m_Layer: 0
+  m_Name: LevelManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6010459276466094102
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8606169347691362006}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8.39083, y: 0.0222, z: 7.18755}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8349632535775841062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8606169347691362006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e813279c39f7a4649b49be9c37d319b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  totalHealth: 100
+  money: 500
+  selectedTower: {fileID: 0}
+  cannonButton: {fileID: 0}
+  archerButton: {fileID: 0}
+  mageButton: {fileID: 0}
+  cannonLevel1: {fileID: 6717784111006732248, guid: 2c43747e378f4cc4c93494c7fb417706, type: 3}
+  archerLevel1: {fileID: 7677314495189372928, guid: 55f1d15a1d2937c4f88e683de90dee34, type: 3}
+  mageLevel1: {fileID: 823583129948757249, guid: a43666959c26c3a4182e574f899867bf, type: 3}
+  selectedPlacedTower: {fileID: 0}
+  healthText: {fileID: 0}
+  healthSlider: {fileID: 0}
+  moneyText: {fileID: 0}
+  sidePanel: {fileID: 0}
+  spawner: {fileID: 0}
+  lastNode: {fileID: 3716305603573213047, guid: e9838affd3d54e34c92a1e2e85b62780, type: 3}
